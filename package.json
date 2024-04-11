@@ -1,0 +1,35 @@
+{
+  "name": "winston-nexus",
+  "version": "1.0.0",
+  "description": "A NEXUS system transport for winston",
+  "author": "Obediah Klopfenstein <obe711@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obe711/winston-nexus.git"
+  },
+  "homepage": "https://github.com/obe711/winston-nexus#readme",
+  "keywords": [
+    "logging",
+    "nexus",
+    "tools",
+    "winston",
+    "udp",
+    "mqtt",
+    "log",
+    "logger"
+  ],
+  "main": "./lib/index",
+  "license": "MIT",
+  "devDependencies": {
+    "winston": "^3.13.0"
+  },
+  "peerDependencies": {
+    "winston": ">=0.5.0"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "winston-transport": "^4.7.0"
+  }
+}
